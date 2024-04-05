@@ -1,0 +1,24 @@
+<svg width="170" height="170" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_314_2020)">
+<rect x="10" y="10" width="150" height="150" rx="75" fill="white"/>
+</g>
+<path d="M104.713 39.5754H98.9445L104.944 46.0855V49.1848H92.5875V45.5559H98.5859L92.5875 39.0457V35.9434H104.713V39.5754ZM90.1375 39.5754H84.3687L90.368 46.0855V49.1848H78.0109V45.5559H84.0102L78.0109 39.0457V35.9434H90.1375V39.5754ZM75.7047 39.7238H69.4797V45.4043H75.7047V49.1848H65.0547V35.9434H75.7047V39.7238Z" fill="#131313"/>
+<path d="M56.5719 126.176L50.2461 55.2285H119.752L113.42 126.164L84.9562 134.057L56.5719 126.176Z" fill="#1572B6"/>
+<path d="M85 128.026L107.999 121.649L113.41 61.0312H85V128.026Z" fill="#33A9DC"/>
+<path d="M85 86.7328H96.5141L97.3102 77.8227H85V69.1211H106.82L106.611 71.4555L104.473 95.4336H85V86.7328Z" fill="white"/>
+<path d="M85.0516 109.331L85.0133 109.342L75.3227 106.725L74.7023 99.7852H65.9688L67.1883 113.448L85.0117 118.395L85.0523 118.384L85.0516 109.331Z" fill="#EBEBEB"/>
+<path d="M95.7766 95.0664L94.7281 106.72L85.0234 109.339V118.392L102.862 113.448L102.993 111.978L104.507 95.0664H95.7766Z" fill="white"/>
+<path d="M85.032 69.1211V77.8219H64.0141L63.8391 75.8664L63.443 71.4555L63.2344 69.1211H85.032ZM85.0016 86.7336V95.4352H75.4336L75.2594 93.4797L74.8625 89.068L74.6539 86.7336H85.0016Z" fill="#EBEBEB"/>
+<defs>
+<filter id="filter0_d_314_2020" x="0" y="0" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_314_2020"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_314_2020" result="shape"/>
+</filter>
+</defs>
+</svg>
