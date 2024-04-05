@@ -4914,10 +4914,11 @@ cursor: pointer;
   left: calc(50% - 960px);
   object-fit: cover;
   z-index: -10000;
+  width: 102vw;
 }
 .frame-child74, 
  .frame-child75 {
-  width: 100vw;
+  width: 90%;
    align-self: center;
    flex: 1;
    position: relative;
@@ -4934,7 +4935,7 @@ cursor: pointer;
   /* max-width: 100%;  */
 }
 .rectangle-parent17 {
-  width: 110vw;
+  width: 90%;
   align-self: stretch;
   flex: 1;
   flex-direction: column;
@@ -7565,8 +7566,7 @@ cursor: pointer;
   z-index: 5;
 }
 .wrapper-vector-283-parent {
-
-  width: 100%;
+  width: 90%;
   height: 650px;
   flex: 1;
   position: relative;
@@ -7583,6 +7583,7 @@ cursor: pointer;
   max-width: 100%;
 }
 .frame-parent103 {
+  width: 90%;
   /* border: 1px solid red; */
   justify-content: center;
   position: relative;
@@ -7596,6 +7597,7 @@ cursor: pointer;
   font-size: var(--font-size-base);
 }
 .frame-child101 {
+  background-color: var(--color-white);
   width: 100%;
   margin: auto;
   position: absolute;
@@ -20327,3 +20329,5 @@ cursor: pointer;
   display: block;
   text-align: center;
 }
+
+.frame-child1000001{}
