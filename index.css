@@ -872,8 +872,7 @@
   left: 0;
 }
 
-.frame-child10
- {
+.frame-child10 {
   position: absolute;
   margin: 0 !important;
   flex-shrink: 0;
@@ -1130,7 +1129,6 @@
   z-index: 4;
 }
 .frame-wrapper {
-
   align-self: stretch;
   justify-content: center;
   padding: 0 var(--padding-xl) var(--padding-81xl);
@@ -1213,11 +1211,10 @@
   font-weight: 500;
   z-index: 1;
 }
-.frame-child21:hover{
+.frame-child21:hover {
   cursor: pointer;
   color: white;
   background: linear-gradient(90deg, #ad2624, #bb8c17);
-
 }
 .rectangle-parent1 {
   display: flex;
@@ -1249,8 +1246,7 @@
 .input-container:hover {
   cursor: pointer;
   color: white;
-
-} 
+}
 .input-container-parent {
   display: flex;
   flex-direction: row;
@@ -1550,10 +1546,9 @@
   z-index: 1;
   transition: transform 0.3s ease 0s;
 }
-.siblings-parent:hover{
+.siblings-parent:hover {
   transform: scale(1.08);
   cursor: pointer;
-
 }
 .grandchildren {
   height: 100%;
@@ -1643,10 +1638,10 @@
   box-sizing: border-box;
   position: relative;
   gap: var(--gap-65xl);
-  max-width: 100%;transition: transform 0.3s ease 0s;
-
+  max-width: 100%;
+  transition: transform 0.3s ease 0s;
 }
-.grandchildren-parent:hover{
+.grandchildren-parent:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -1756,9 +1751,8 @@
   gap: 63px;
   max-width: 100%;
   transition: transform 0.3s ease 0s;
-
 }
-.fifth-cousin-parent:hover{
+.fifth-cousin-parent:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -1895,9 +1889,8 @@
   position: relative;
   gap: var(--gap-65xl);
   transition: transform 0.3s ease 0s;
-
 }
-.rectangle-parent2:hover{
+.rectangle-parent2:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2002,10 +1995,10 @@
   box-sizing: border-box;
   position: relative;
   gap: var(--gap-57xl);
-  max-width: 100%;transition: transform 0.3s ease 0s;
-
+  max-width: 100%;
+  transition: transform 0.3s ease 0s;
 }
-.rectangle-parent4:hover{
+.rectangle-parent4:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2096,12 +2089,12 @@
   box-sizing: border-box;
   position: relative;
   gap: var(--gap-65xl);
-  max-width: 100%;transition: transform 0.3s ease 0s;
-
+  max-width: 100%;
+  transition: transform 0.3s ease 0s;
 }
-.rectangle-parent5:hover{
+.rectangle-parent5:hover {
   transform: scale(1.08);
-cursor: pointer;
+  cursor: pointer;
 }
 .frame-parent10,
 .frame-parent11 {
@@ -2206,10 +2199,10 @@ cursor: pointer;
   position: relative;
   gap: 68px;
   max-width: 100%;
-  z-index: 1;transition: transform 0.3s ease 0s;
-
+  z-index: 1;
+  transition: transform 0.3s ease 0s;
 }
-.rectangle-parent6:hover{
+.rectangle-parent6:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2303,9 +2296,8 @@ cursor: pointer;
   gap: var(--gap-65xl);
   max-width: 100%;
   transition: transform 0.3s ease 0s;
-
 }
-.rectangle-parent7:hover{
+.rectangle-parent7:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2417,10 +2409,10 @@ cursor: pointer;
   justify-content: space-between;
   padding: var(--padding-10xl) 0 var(--padding-11xl) var(--padding-11xl);
   position: relative;
-  gap: var(--gap-xl);transition: transform 0.3s ease 0s;
-
+  gap: var(--gap-xl);
+  transition: transform 0.3s ease 0s;
 }
-.rectangle-parent8:hover{
+.rectangle-parent8:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2779,7 +2771,7 @@ cursor: pointer;
   background: linear-gradient(90deg, #ff3934, #febc18);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.frame-child41:hover{
+.frame-child41:hover {
   background: linear-gradient(90deg, #b92826, #bb8b11);
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -2881,9 +2873,8 @@ cursor: pointer;
   font-weight: 600;
   display: inline-block;
   transition: transform 0.3s ease 0s;
-
 }
-.our-expertise:hover{
+.our-expertise:hover {
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -2971,7 +2962,7 @@ cursor: pointer;
   position: relative;
   transition: transform 0.3s ease;
 }
-.frame-child42:hover{
+.frame-child42:hover {
   transform: scale(1.3);
   cursor: pointer;
 }
@@ -3005,9 +2996,9 @@ cursor: pointer;
   position: relative;
   transition: transform 0.3s ease;
 }
-.frame-child43:hover{
+.frame-child43:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .css-3 {
   align-self: stretch;
@@ -3036,11 +3027,12 @@ cursor: pointer;
 .frame-child44 {
   width: 150px;
   height: 150px;
-  position: relative;transition: transform 0.3s ease;
+  position: relative;
+  transition: transform 0.3s ease;
 }
-.frame-child44:hover{
+.frame-child44:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .java-script {
   align-self: stretch;
@@ -3071,11 +3063,10 @@ cursor: pointer;
   height: 150px;
   position: relative;
   transition: transform 0.3s ease;
-
 }
-.frame-child45:hover{
+.frame-child45:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .jquery {
   align-self: stretch;
@@ -3107,9 +3098,9 @@ cursor: pointer;
   position: relative;
   transition: transform 0.3s ease;
 }
-.frame-child46:hover{
+.frame-child46:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .angular-js {
   align-self: stretch;
@@ -3142,18 +3133,16 @@ cursor: pointer;
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 .frame-child47 {
   width: 150px;
   height: 150px;
   position: relative;
   transition: transform 0.3s ease;
-
 }
-.frame-child47:hover{
+.frame-child47:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .net {
   align-self: stretch;
@@ -3185,9 +3174,9 @@ cursor: pointer;
   position: relative;
   transition: transform 0.3s ease;
 }
-.frame-child48:hover{
+.frame-child48:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .visual-c {
   align-self: stretch;
@@ -3219,9 +3208,9 @@ cursor: pointer;
   position: relative;
   transition: transform 0.3s ease;
 }
-.frame-child49:hover{
+.frame-child49:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .bootstrap {
   align-self: stretch;
@@ -3281,9 +3270,9 @@ cursor: pointer;
   padding: var(--padding-6xl);
   transition: transform 0.3s ease;
 }
-.input-collector-parent:hover{
+.input-collector-parent:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .android {
   flex: 1;
@@ -3312,11 +3301,10 @@ cursor: pointer;
   height: 150px;
   position: relative;
   transition: transform 0.3s ease;
-
 }
-.frame-child50:hover{
+.frame-child50:hover {
   transform: scale(1.3);
-cursor: pointer;
+  cursor: pointer;
 }
 .sql-server {
   align-self: stretch;
@@ -3375,7 +3363,7 @@ cursor: pointer;
   font-size: var(--font-size-xl);
   color: var(--color-gray-100);
 }
-.frame-parent24-parent{
+.frame-parent24-parent {
   margin: auto;
   /* border: 1px solid red; */
   width: 100%;
@@ -3404,7 +3392,6 @@ cursor: pointer;
 .vector-icon9 {
   flex-shrink: 0;
   debug_commit: f6aba90;
-
 }
 .vector-icon9 {
   height: 123px;
@@ -3451,7 +3438,7 @@ cursor: pointer;
   display: inline-block;
   transition: transform 0.3s ease 0s;
 }
-.our-featured-products1:hover{
+.our-featured-products1:hover {
   transform: scale(1.03);
   cursor: pointer;
 }
@@ -4252,11 +4239,12 @@ cursor: pointer;
   position: relative;
   font-size: var(--font-size-31xl);
   font-weight: 600;
-  display: inline-block;transition: transform 0.3s ease 0s;
+  display: inline-block;
+  transition: transform 0.3s ease 0s;
 }
-.explore-our-projects:hover{
+.explore-our-projects:hover {
   transform: scale(1.03);
-cursor: pointer;
+  cursor: pointer;
 }
 .frame-parent54,
 .frame-wrapper28 {
@@ -4916,20 +4904,20 @@ cursor: pointer;
   z-index: -10000;
   width: 102vw;
 }
-.frame-child74, 
- .frame-child75 {
+.frame-child74,
+.frame-child75 {
   width: 90%;
-   align-self: center;
-   flex: 1;
-   position: relative;
-   background-color: var(--color-white);
-   filter: blur(30px);
-   z-index: 10000;
-  }
-  .rectangle-parent17,
-  .water-balloon-colorful-1687445-parent {
+  align-self: center;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+  filter: blur(30px);
+  z-index: 10000;
+}
+.rectangle-parent17,
+.water-balloon-colorful-1687445-parent {
   /* border: 1px solid red; */
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   /* max-width: 100%;  */
@@ -4940,7 +4928,7 @@ cursor: pointer;
   flex: 1;
   flex-direction: column;
   gap: 1100px;
-  z-index: 1; 
+  z-index: 1;
 }
 .water-balloon-colorful-1687445-parent {
   height: 100%;
@@ -5519,7 +5507,7 @@ cursor: pointer;
 .rectangle-parent21 {
   flex: 1;
   flex-direction: row;
-  padding: var(--padding-2xl) var(--padding-22xl);
+  padding: var(--padding-2xl) var(--padding-2xl);
   box-sizing: border-box;
   position: relative;
   min-width: 146px;
@@ -6391,7 +6379,7 @@ cursor: pointer;
   border-radius: var(--br-7xs);
   background: linear-gradient(90deg, #ff3934, #ff7033);
 }
-.frame-child93{
+.frame-child93 {
   cursor: pointer;
 }
 .discover-more4 {
@@ -7587,7 +7575,6 @@ cursor: pointer;
   /* border: 1px solid red; */
   justify-content: center;
   position: relative;
-
 }
 .link-connector {
   align-self: stretch;
@@ -8098,14 +8085,13 @@ cursor: pointer;
 .vector-parent {
   flex: 1;
   flex-direction: column;
-  padding: 183.9px ;
+  padding: 183.9px;
   position: relative;
   gap: 49.3px;
   flex-shrink: 0;
   z-index: 3;
   width: auto;
   top: 4rem;
-
 }
 .frame-wrapper79 {
   align-self: stretch;
@@ -12397,6 +12383,7 @@ cursor: pointer;
   box-sizing: border-box;
 }
 .subscribe-now1 {
+  /* width: fit-content; */
   height: 24px;
   flex: 1;
   position: relative;
@@ -20255,7 +20242,6 @@ cursor: pointer;
   }
 }
 
-
 /* .gif{
   background-image: url("./public/ezgif1.gif");;
   z-index: -200;
@@ -20267,8 +20253,8 @@ cursor: pointer;
   overflow: hidden;
   width: 100%;
 } */
-.gif1{
-  background-image: url("./public/ezgif2.gif");;
+.gif1 {
+  background-image: url("./public/ezgif2.gif");
   z-index: -200;
   background-position: center;
   background-repeat: no-repeat;
@@ -20289,34 +20275,34 @@ cursor: pointer;
   background-position: center;
   z-index: -100;
 }
-.particles-js-canvas-el{
+.particles-js-canvas-el {
   position: absolute;
   top: 0px;
 }
 
 #stats,
-.count-particles{
+.count-particles {
   -webkit-user-select: none;
 }
 
-#stats{
+#stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
 
-.count-particles{
+.count-particles {
   border-radius: 0 0 3px 3px;
 }
-.content{
+.content {
   position: absolute;
   top: 0;
   /* height: 100vh; */
 }
-.cell-gif{
+.cell-gif {
   top: 0;
   height: 100vh;
 }
-.carousel{
+.carousel {
   height: 100vh;
   /* border: 10px solid black; */
   z-index: 100;
@@ -20330,4 +20316,10 @@ cursor: pointer;
   text-align: center;
 }
 
-.frame-child1000001{}
+.frame-child1000001 {
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
