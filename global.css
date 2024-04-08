@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -12,10 +12,10 @@ body {
 :root {
   /* fonts */
   --font-roboto: Roboto;
+  /* --font-roboto-condensed: "Roboto Condensed";
   --font-inria-serif: "Inria Serif";
   --font-inter: Inter;
-  --font-outfit: Outfit;
-  --font-roboto-condensed: "Roboto Condensed";
+  --font-outfit: Outfit; */
 
   /* font sizes */
   --font-size-xl: 20px;
@@ -183,6 +183,3 @@ body {
   --br-41xl: 60px;
   --br-46xl: 65px;
 }
-
-
-

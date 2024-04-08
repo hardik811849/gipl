@@ -5,13 +5,14 @@ body {
 
 :root {
   /* fonts */
-  --font-inter: Inter;
+  --font-roboto: Roboto;
 
   /* font sizes */
   --font-size-xl: 20px;
   --font-size-sm-6: 13.6px;
   --font-size-smi-8: 12.8px;
   --font-size-11xl: 30px;
+  --font-size-21xl: 40px;
   --font-size-31xl: 50px;
   --font-size-5xl: 24px;
   --font-size-3xl: 22px;

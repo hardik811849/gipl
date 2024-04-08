@@ -1369,7 +1369,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-81xl);
+  padding: 0 var(--padding-xl) var(--padding-21xl);
   font-size: var(--font-size-sm);
   color: var(--color-white);
   z-index: 10000;

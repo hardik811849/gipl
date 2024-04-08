@@ -287,7 +287,7 @@
   width: 1420px;
 }
 .group-div {
-  top: 50px;
+  top: 30px;
   left: 250px;
   font-size: var(--font-size-xl);
   color: var(--color-darkslategray);
@@ -377,16 +377,17 @@
 }
 .we-have-the-container {
   position: absolute;
-  top: 130px;
-  left: 0;
+  top: 140px;
+  left: 106px;
   font-size: var(--font-size-xl);
   font-weight: 500;
   text-align: right;
 }
 .web-designing {
   position: absolute;
-  top: 39px;
-  left: 268px;
+  top: 30px;
+  left: 240px;
+  margin-top: 10px;
   font-size: var(--font-size-31xl);
   font-weight: 600;
   color: var(--color-darkslategray);
@@ -423,12 +424,19 @@
 }
 .we-thoughtfully-develop {
   margin: 0;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
 }
 .we-thoughtfully-develop-container {
   position: absolute;
-  top: 130px;
-  left: 0;
+  top: 100px;
+  left: 75px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.we-thoughtfully-develop-container-right {
+  position: absolute;
+  top: 100px;
+  left: 0px;
   font-size: var(--font-size-xl);
   font-weight: 500;
 }
@@ -436,7 +444,7 @@
   position: absolute;
   top: 39px;
   left: 0;
-  font-size: var(--font-size-31xl);
+  font-size: var(--font-size-21xl);
   font-weight: 600;
   color: var(--color-darkslategray);
 }
@@ -466,8 +474,8 @@
 .software-development {
   position: absolute;
   top: 39px;
-  left: 36px;
-  font-size: var(--font-size-31xl);
+  left: 142px;
+  font-size: var(--font-size-21xl);
   font-weight: 600;
   color: var(--color-darkslategray);
 }
@@ -512,7 +520,7 @@
 .smart-parking {
   position: absolute;
   top: 39px;
-  left: 279px;
+  left: 250px;
   font-size: var(--font-size-31xl);
   font-weight: 600;
   color: var(--color-darkslategray);
@@ -666,7 +674,7 @@
 .smart-metering {
   position: absolute;
   top: 39px;
-  left: 217px;
+  left: 190px;
   font-size: var(--font-size-31xl);
   font-weight: 600;
   color: var(--color-darkslategray);
@@ -899,7 +907,7 @@
 .it-consultancy {
   position: absolute;
   top: 39px;
-  left: 262px;
+  left: 240px;
   font-size: var(--font-size-31xl);
   font-weight: 600;
   color: var(--color-darkslategray);
