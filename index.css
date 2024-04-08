@@ -5512,6 +5512,9 @@
   position: relative;
   min-width: 146px;
 }
+.rectangle-parent21:hover {
+  box-shadow: rgba(0, 0, 0, 0.94) 0px 3px 8px;
+}
 .frame-parent80,
 .logosyoutube-parent {
   gap: var(--gap-31xl);
@@ -20320,6 +20323,6 @@
 }
 
 a {
-  text-decoration: none;
+  all: unset;
   cursor: pointer;
 }

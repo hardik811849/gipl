@@ -2030,6 +2030,6 @@
   font-family: var(--font-inter);
 }
 a {
-  text-decoration: none;
+  all: unset;
   cursor: pointer;
 }
