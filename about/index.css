@@ -35,7 +35,7 @@
   position: absolute;
   top: 223px;
   left: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 .great-product-is-container {
   position: absolute;
@@ -789,7 +789,7 @@
   top: 130px;
   left: calc(50% - 348.5px);
   font-size: var(--font-size-xl);
-  font-weight: 500;
+  font-weight: 400;
 }
 .key-managerial-person {
   top: 39px;
@@ -830,7 +830,7 @@
   position: absolute;
   top: 130px;
   left: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 .about-gipl2 {
   top: 39px;

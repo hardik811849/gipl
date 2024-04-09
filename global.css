@@ -2,20 +2,22 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* font-family: --var(--font-roboto); */
 }
 body {
   margin: 0px;
   padding: 0px;
   line-height: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
-  /* fonts */
   --font-roboto: Roboto;
-  /* --font-roboto-condensed: "Roboto Condensed";
-  --font-inria-serif: "Inria Serif";
-  --font-inter: Inter;
-  --font-outfit: Outfit; */
+  /* --font-inter: Inter; */
+  /* fonts */
+  /* --font-roboto-condensed: "Roboto Condensed"; */
+  /* --font-inria-serif: "Inria Serif"; */
+  /* --font-outfit: Outfit; */
 
   /* font sizes */
   --font-size-xl: 20px;

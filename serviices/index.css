@@ -43,7 +43,7 @@
   position: absolute;
   top: 223px;
   left: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 .offering-smart-it-container {
   position: absolute;
@@ -378,7 +378,7 @@
 .we-have-the-container {
   position: absolute;
   top: 140px;
-  left: 106px;
+  left: 48px;
   font-size: var(--font-size-xl);
   font-weight: 500;
   text-align: right;
@@ -386,10 +386,10 @@
 .web-designing {
   position: absolute;
   top: 30px;
-  left: 240px;
+  left: 290px;
   margin-top: 10px;
   font-size: var(--font-size-31xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-parent {
@@ -429,7 +429,7 @@
 .we-thoughtfully-develop-container {
   position: absolute;
   top: 100px;
-  left: 75px;
+  left: 40px;
   font-size: var(--font-size-xl);
   font-weight: 500;
 }
@@ -445,7 +445,7 @@
   top: 39px;
   left: 0;
   font-size: var(--font-size-21xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-group {
@@ -474,9 +474,9 @@
 .software-development {
   position: absolute;
   top: 39px;
-  left: 142px;
+  left: 200px;
   font-size: var(--font-size-21xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-container {
@@ -520,9 +520,9 @@
 .smart-parking {
   position: absolute;
   top: 39px;
-  left: 250px;
+  left: 300px;
   font-size: var(--font-size-31xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-parent2 {
@@ -674,9 +674,9 @@
 .smart-metering {
   position: absolute;
   top: 39px;
-  left: 190px;
+  left: 240px;
   font-size: var(--font-size-31xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-parent4 {
@@ -907,9 +907,9 @@
 .it-consultancy {
   position: absolute;
   top: 39px;
-  left: 240px;
-  font-size: var(--font-size-31xl);
-  font-weight: 600;
+  left: 375px;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
   color: var(--color-darkslategray);
 }
 .services-parent5 {

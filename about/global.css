@@ -1,16 +1,16 @@
 body {
   margin: 0;
   line-height: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
   /* fonts */
   --font-roboto: Roboto;
-  --font-inria-serif: "Inria Serif";
-  --font-inter: Inter;
-  --font-outfit: Outfit;
-  --font-roboto-condensed: "Roboto Condensed";
-
+  /* --font-inria-serif: "Inria Serif"; */
+  /* --font-inter: Inter; */
+  /* --font-outfit: Outfit; */
+  /* --font-roboto-condensed: "Roboto Condensed"; */
 
   /* font sizes */
   --font-size-xl: 20px;
