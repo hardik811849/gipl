@@ -710,7 +710,7 @@
 .services {
   left: 241px;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -878,11 +878,12 @@ a{
   width: 224px;
   height: 66px;
 }
-.group-child52:hover{
+.group-child52:hover {
   background: linear-gradient(90deg, #ac2422, #af4c22);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.group-child52:hover, .wath-playlists:hover{
+.group-child52:hover,
+.wath-playlists:hover {
   cursor: pointer;
 }
 .wath-playlists {
@@ -921,10 +922,9 @@ a{
   width: 224px;
   height: 66px;
 }
-.rectangle-parent29:hover{
-cursor: pointer;
-box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
-
+.rectangle-parent29:hover {
+  cursor: pointer;
+  box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
 }
 .group-parent2 {
   top: 349px;
@@ -1017,7 +1017,11 @@ box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
   left: calc(50% - 638px);
   letter-spacing: 0.37em;
   font-weight: 900;
-  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  opacity: 0.1;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 0.2 #000, -1px 1px 0 #000, -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 .group-child55,
 .group-child56 {
@@ -1096,8 +1100,13 @@ box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
   left: calc(50% - 609px);
   letter-spacing: 0.37em;
   font-weight: 900;
-  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  opacity: 0.1;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 0.2 #000, -1px 1px 0 #000, -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
+
 .group-child69,
 .group-child70 {
   position: absolute;
@@ -1211,7 +1220,11 @@ box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
   left: calc(50% - 475px);
   letter-spacing: 0.37em;
   font-weight: 900;
-  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  opacity: 0.1;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 0.2 #000, -1px 1px 0 #000, -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 .group-child75 {
   position: absolute;
@@ -1322,7 +1335,11 @@ box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
   left: calc(50% - 672px);
   letter-spacing: 0.2em;
   font-weight: 900;
-  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  opacity: 0.1;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 0.2 #000, -1px 1px 0 #000, -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 .group-child82,
 .group-child83 {
@@ -1505,7 +1522,7 @@ box-shadow: rgba(255, 253, 253, 0.24) 0px 10px 50px;
   height: 1064px;
 }
 .group-parent {
-  background-image: url('./public/frame-1618873098.png');
+  background-image: url("./public/frame-1618873098.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
