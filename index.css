@@ -2525,6 +2525,7 @@
   position: absolute;
   margin: 0 !important;
   object-fit: contain;
+  z-index: 11111111111111;
 }
 .milada-vigerova-32030-icon2 {
   height: 211.7px;
