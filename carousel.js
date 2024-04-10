@@ -1,34 +1,63 @@
-const delay = 3000; //ms
+const carousel = document.querySelector(".carousel");
+let carouselItems = document.querySelectorAll(".carousel__item");
+const [btnLeftCarousel, btnRightCarousel] =
+  document.querySelectorAll(".carousel-button");
+let carouselCount = carouselItems.length;
+let pos = 0;
+let translateX = 0;
 
-const slides = document.querySelector(".slides");
-const slidesCount = slides.childElementCount;
-const maxLeft = (slidesCount - 1) * 100 * -1;
-
-let current = 0;
-
-function changeSlide(next = true) {
-  if (next) {
-    current += current > maxLeft ? -100 : current * -1;
-  } else {
-    current = current < 0 ? current + 100 : maxLeft;
+btnLeftCarousel.addEventListener("click", (e) => {
+  let calculate = pos > 0 ? (pos - 1) % carouselCount : carouselCount;
+  if (pos > 0) translateX = pos === 1 ? 0 : translateX - 100.5;
+  else if (pos <= 0) {
+    translateX = 100.5 * (carouselCount - 1);
+    calculate = carouselCount - 1;
   }
 
-  slides.style.left = current + "%";
+  console.log(pos);
+
+  pos = slide({
+    show: calculate,
+    disable: pos,
+    translateX: translateX,
+  });
+});
+
+btnRightCarousel.addEventListener("click", (e) => {
+  let calculate = (pos + 1) % carouselCount;
+  if (pos >= carouselCount - 1) {
+    calculate = 0;
+    translateX = 0;
+  } else {
+    translateX += 100.5;
+  }
+
+  pos = slide({
+    show: calculate,
+    disable: pos,
+    translateX: translateX,
+  });
+});
+
+function slide(options) {
+  function active(_pos) {
+    carouselItems[_pos].classList.toggle("active");
+  }
+
+  function inactive(_pos) {
+    carouselItems[_pos].classList.toggle("active");
+  }
+
+  inactive(options.disable);
+  active(options.show);
+
+  document.querySelectorAll(".carousel__item").forEach((item, index) => {
+    if (index === options.show) {
+      item.style.transform = `translateX(-${options.translateX}%) scale(1)`;
+    } else {
+      item.style.transform = `translateX(-${options.translateX}%) scale(1)`;
+    }
+  });
+
+  return options.show;
 }
-
-let autoChange = setInterval(changeSlide, delay);
-const restart = function () {
-  clearInterval(autoChange);
-  autoChange = setInterval(changeSlide, delay);
-};
-
-// Controls
-document.querySelector(".next-slide").addEventListener("click", function () {
-  changeSlide();
-  restart();
-});
-
-document.querySelector(".prev-slide").addEventListener("click", function () {
-  changeSlide(false);
-  restart();
-});
