@@ -2364,7 +2364,7 @@
   font-weight: 500;
   color: var(--color-gray-100);
 }
-.container,
+.container1,
 .networking-group {
   display: flex;
   align-items: flex-start;
@@ -2376,7 +2376,7 @@
   flex-direction: column;
   gap: var(--gap-xs);
 }
-.container {
+.container1 {
   height: 80px;
   width: 302px;
   flex-direction: row;
