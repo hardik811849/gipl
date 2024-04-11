@@ -1,7 +1,3 @@
-/*------------------------------
-        Album Cover Slider
---------------------------------*/
-//start added by Chase
 var a = document.getElementsByTagName("a");
 var cfImg = document.getElementsByClassName("coverflow__image");
 
@@ -31,7 +27,6 @@ function forScale(coverflowPos) {
     }
   }
 }
-//end added by Chase
 
 function setupCoverflow(coverflowContainer) {
   var coverflowContainers;
@@ -52,22 +47,18 @@ function setupCoverflow(coverflowContainer) {
     var coverflow = {};
     var prevArrows, nextArrows;
 
-    //capture coverflow elements
     coverflow.container = containerElement;
     coverflow.images = Array.prototype.slice.apply(
       containerElement.getElementsByClassName("coverflow__image")
     );
     coverflow.position = Math.floor(coverflow.images.length / 2) + 1;
 
-    //set indicies on images
     coverflow.images.forEach(function (coverflowImage, i) {
       coverflowImage.dataset.coverflowIndex = i + 1;
     });
 
-    //set initial position
     coverflow.container.dataset.coverflowPosition = coverflow.position;
 
-    //get prev/next arrows
     prevArrows = Array.prototype.slice.apply(
       coverflow.container.getElementsByClassName("prev-arrow")
     );
@@ -75,11 +66,9 @@ function setupCoverflow(coverflowContainer) {
       coverflow.container.getElementsByClassName("next-arrow")
     );
 
-    //add event handlers
     function setPrevImage() {
       coverflow.position = Math.max(1, coverflow.position - 1);
       coverflow.container.dataset.coverflowPosition = coverflow.position;
-      //call the functin forScale added
       forScale(coverflow.position);
     }
 
@@ -89,7 +78,6 @@ function setupCoverflow(coverflowContainer) {
         coverflow.position + 1
       );
       coverflow.container.dataset.coverflowPosition = coverflow.position;
-      //call the function Chase added
       forScale(coverflow.position);
     }
 
@@ -99,19 +87,17 @@ function setupCoverflow(coverflowContainer) {
         Math.max(1, evt.target.dataset.coverflowIndex)
       );
       coverflow.container.dataset.coverflowPosition = coverflow.position;
-      //start added by Chase
       setTimeout(function () {
         forScale(coverflow.position);
       }, 1);
-      //end added by Chase
     }
 
     function onKeyPress(evt) {
       switch (evt.which) {
-        case 37: //left arrow
+        case 37:
           setPrevImage();
           break;
-        case 39: //right arrow
+        case 39:
           setNextImage();
           break;
       }
