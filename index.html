@@ -32,10 +32,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
     /> -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
     />
+    <!-- Include jQuery (required for Flickity) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include Flickity JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
   </head>
   <body>
     <div class="bg">
@@ -55,7 +63,19 @@
                       <div class="frame-child13"></div>
                       <div class="about-parent">
                         <div class="about">
-                          <a href="./about/about.html">About</a>
+                          <!-- <a href="./about/about.html"> -->
+                          <div class="dropdown">
+                            <p class="dropbtn">
+                              About
+                              <i class="fa fa-caret-down"></i>
+                            </p>
+                            <div class="dropdown-content">
+                              <a href="./about/about.html">About</a>
+                              <a href="./investore/investore.html">Investore</a>
+                              <a href="./news/news.html">News & Blogs</a>
+                            </div>
+                          </div>
+                          <!-- </a> -->
                         </div>
                         <div class="vector-wrapper">
                           <img
@@ -70,15 +90,21 @@
                         <a href="./serviices/services.html">Sevices</a>
                       </div>
                       <div class="frame-child15"></div>
-                      <div class="portfolio">Portfolio</div>
+                      <div class="portfolio">
+                        <a href="./Portfolio/portfolio.html">Portfolio</a>
+                      </div>
                     </div>
                     <div class="tenders-parent">
-                      <div class="tenders">Tenders</div>
+                      <div class="tenders">
+                        <a href="./tender/tender.html">Tenders</a>
+                      </div>
                       <div class="frame-child16"></div>
                       <div class="career">Career</div>
                       <div class="frame-child17"></div>
                       <div class="gallery-parent">
-                        <div class="gallery">Gallery</div>
+                        <div class="gallery">
+                          <a href="./Gallery/gallery.html">Gallery</a>
+                        </div>
                         <div class="vector-container">
                           <img
                             class="vector-icon7"
@@ -88,7 +114,9 @@
                         </div>
                       </div>
                       <div class="frame-child18"></div>
-                      <div class="contact">Contact</div>
+                      <div class="contact">
+                        <a href="./Contact/contact.html">Contact</a>
+                      </div>
                     </div>
                   </div>
                   <div class="rectangle-container">
@@ -186,7 +214,9 @@
                       <div class="portfolio">Portfolio</div>
                     </div>
                     <div class="tenders-parent">
-                      <div class="tenders">Tenders</div>
+                      <div class="tenders">
+                        <a href="./tender/tender.html">Tenders</a>
+                      </div>
                       <div class="frame-child16"></div>
                       <div class="career">Career</div>
                       <div class="frame-child17"></div>
@@ -1923,10 +1953,12 @@
                         </div>
                       </div>
                       <div class="frame-wrapper59">
-                        <div class="rectangle-parent23">
-                          <div class="frame-child89"></div>
-                          <div class="discover-more2">Discover More</div>
-                        </div>
+                        <a href="./archivements/archivements.html">
+                          <div class="rectangle-parent23">
+                            <div class="frame-child89"></div>
+                            <div class="discover-more2">Discover More</div>
+                          </div></a
+                        >
                       </div>
                     </div>
                   </div>

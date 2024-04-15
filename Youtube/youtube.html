@@ -18,10 +18,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
     />
+    <!-- Include jQuery (required for Flickity) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include Flickity JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
       type="text/javascript"
@@ -342,7 +350,7 @@
 
             <div class="home-parent">
               <div class="home">
-                <a href="../index.html"> Home </a>
+                <a href="../index.html">Home</a>
               </div>
               <div class="contact">Contact</div>
               <div class="about-gipl">About GIPL</div>
@@ -457,9 +465,13 @@
             <img class="group-child35" alt="" src="./public/vector-27@2x.png" />
 
             <div class="home-group">
-              <div class="home">Home</div>
+              <div class="home">
+                <a href="../index.html"> Home </a>
+              </div>
               <div class="contact">Contact</div>
-              <div class="about-gipl">About GIPL</div>
+              <div class="about-gipl">
+                <a href="../about/about.html"> About GIPL </a>
+              </div>
               <div class="privacy-policy">Privacy Policy</div>
               <div class="terms-of-use">Terms of Use</div>
               <div class="careers">Careers</div>
@@ -581,11 +593,15 @@
               <div class="services">
                 <a href="../serviices/services.html">Services</a>
               </div>
-              <div class="home2"><a href="../index.html">Home</a></div>
+              <div class="home2">
+                <a href="../index.html">Home</a>
+              </div>
               <div class="vector-container">
-                <img class="vector-icon18" alt="" src="./public/vector.svg" />
+                <img class="vector-icon18" alt="" src="./public/vector4.svg" />
 
-                <div class="home"><a href="../about/about.html">About</a></div>
+                <div class="home">
+                  <a href="../about/about.html">About </a>
+                </div>
               </div>
               <div class="group-child45"></div>
               <div class="group-child46"></div>
@@ -596,9 +612,9 @@
               <div class="contact2">Contact</div>
               <div class="gallery-parent">
                 <div class="home">Gallery</div>
-                <img class="vector-icon19" alt="" src="./public/vector.svg" />
+                <img class="vector-icon19" alt="" src="./public/vector4.svg" />
               </div>
-              <div class="home">Tenders</div>
+              <div class="home"><a href="./tender/tender.html">Tenders</a></div>
               <div class="group-child48"></div>
               <div class="group-child49"></div>
               <div class="group-child50"></div>
@@ -920,18 +936,69 @@
                 <div class="coverflow top10 bot10">
                   <a class="prev-arrow"></a>
                   <a href="">
-                    <iframe class="coverflow__image" width="800" height="315" src="https://www.youtube.com/embed/xXWb6CoiKrI?si=iqOSVT8bmdYMqobP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                      class="coverflow__image"
+                      width="800"
+                      height="315"
+                      src="https://www.youtube.com/embed/xXWb6CoiKrI?si=iqOSVT8bmdYMqobP"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
                   </a>
                   <a href="">
-                    <iframe class="coverflow__image" width="800" height="315" src="https://www.youtube.com/embed/F3ezrrYLz2M?si=byMOCOKzpkpxvU-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe
+                    <iframe
+                      class="coverflow__image"
+                      width="800"
+                      height="315"
+                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=byMOCOKzpkpxvU-i"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe
                   ></a>
                   <a href="">
-                    <iframe class="coverflow__image" width="800" height="315" src="https://www.youtube.com/embed/C9DEw17QtGg?si=oN3JeCq5fLVctmQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
-                  <a href="">
-                    <iframe class="coverflow__image" width="800" height="315" src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=dhJJJrZUvE5tcOOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe
+                    <iframe
+                      class="coverflow__image"
+                      width="800"
+                      height="315"
+                      src="https://www.youtube.com/embed/C9DEw17QtGg?si=oN3JeCq5fLVctmQ8"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe
                   ></a>
                   <a href="">
-                    <iframe class="coverflow__image" width="800" height="315" src="https://www.youtube.com/embed/CcWho3Ho6jU?si=BfSiM-eSipGknG7q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                      class="coverflow__image"
+                      width="800"
+                      height="315"
+                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=dhJJJrZUvE5tcOOy"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </a>
+                  <a href="">
+                    <iframe
+                      class="coverflow__image"
+                      width="800"
+                      height="315"
+                      src="https://www.youtube.com/embed/CcWho3Ho6jU?si=BfSiM-eSipGknG7q"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
                   </a>
 
                   <a class="next-arrow"></a>
@@ -1090,7 +1157,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="frame-parent72 carousel__buttons">
+        <!-- <div class="frame-parent72 carousel__buttons">
               <button type="button" class="frame-child76 carousel-button">
                 &#10094;
               </button>
@@ -1098,1605 +1165,1591 @@
                 &#10095;
               </button>
             </div> -->
-          </div>
-        </div>
       </div>
+    </div>
+    <!-- </div> -->
 
-      <div class="pics-gallery-parent">
-        <div class="pics-gallery">PICS GALLERY</div>
-        <div class="group-parent14">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
+    <div class="pics-gallery-parent">
+      <div class="pics-gallery">PICS GALLERY</div>
+      <div class="group-parent14">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="last">
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Gir National Park</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Statue of Unity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          Gir National Park Online Booking
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          E-Permit for Liquor Gujarat State
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">
-                          SQL Session Part XII
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-parent1">
-                    <iframe
-                      class="group-child82"
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="rectangle-parent33">
-                      <div class="group-child83">
-                        <div class="knowledge-series4">Knowledge Series</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="last">
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/F3ezrrYLz2M?si=xHTEo1DTALxXJWlF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Gir National Park</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/woefbgMPfpE?si=hv6j3Ns1GQOtOxyR"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Statue of Unity</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CQ9lQRcHX3Y?si=1MX13jXdQQdgfiwD"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        Gir National Park Online Booking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/q9gkY7YrGxg?si=5UKKc4Q8gq6PLZFj"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">
+                        E-Permit for Liquor Gujarat State
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eAZ3j8GKfyM?si=pNfUlH5v8fJJKyVF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/O7CiaP1YjA4?si=hu7BOdGkV1gp0lAN"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">SQL Session Part XII</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4asHfr382F0?si=GyU3hrl82UG0OKnZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4rJBaEq7vyM?si=tt8tAzZL7MLuvEyZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/e5kFFhXaD-4?si=ON_2NpOCo7wnUHCO"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tjoWszkk_vc?si=3sgfosFxT3lEZ--K"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WP-xQqEkNNU?si=QexfPXjKY-hHeyNZ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-parent1">
+                  <iframe
+                    class="group-child82"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4QgO9C5O0D0?si=PPm_VIHRFn7ishKY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="rectangle-parent33">
+                    <div class="group-child83">
+                      <div class="knowledge-series4">Knowledge Series</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
+    <!-- </div> -->
     <!-- <script src="../carousel.js"></script> -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="./carousel.js"></script>
