@@ -2523,6 +2523,10 @@
   object-fit: cover;
   z-index: 1;
 }
+.milada-vigerova-32030-icon1:hover {
+  transition: trasform 0.3s ease 1s;
+  transform: scale(1.1);
+}
 .milada-vigerova-32030-icon2,
 .rectangle-icon1 {
   position: absolute;
@@ -2583,6 +2587,7 @@
   flex-direction: row;
   align-items: flex-start;
   position: relative;
+  transition: trasform 0.3s ease-in-out;
 }
 .art-work,
 .art-work-inner,
@@ -4765,6 +4770,13 @@
   position: relative;
   white-space: nowrap;
 }
+.blend-mixer:hover {
+  background: linear-gradient(90deg, #af2522, #ce5a29);
+  cursor: pointer;
+}
+.discover-more1:hover {
+  cursor: pointer;
+}
 .frame-wrapper34 {
   align-self: stretch;
   justify-content: center;
@@ -6100,7 +6112,7 @@
 .rectangle-parent26:hover,
 .rectangle-parent28:hover {
   border-radius: var(--br-mini);
-  border: 2px solid var(--color-black);
+  /* border: 1px solid var(--color-black); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
 }
@@ -6772,6 +6784,10 @@
   top: 0;
   transform: scale(1.1);
 }
+/* .wrapper-vector-283-child:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+} */
 .wrapper-vector-283 {
   position: absolute;
   top: 0;
@@ -6782,7 +6798,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.5s ease-in-out;
 }
+
 .wrapper-vector-284-child {
   width: 100%;
   height: 100%;
@@ -6892,6 +6910,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.5s ease-in-out;
 }
 .frame-child100 {
   left: 244px;
@@ -7041,13 +7060,18 @@
 .frame-wrapper65 {
   position: absolute;
   top: 0;
-  left: 244px;
+  left: 0px;
   width: 200px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   z-index: 2;
+  transition: transform 0.5s ease-in-out;
+}
+.frame-wrapper65:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .sp-university-logo-1-icon {
   position: absolute;
@@ -7066,7 +7090,7 @@
 .frame-wrapper66 {
   position: absolute;
   top: 0;
-  left: 732px;
+  left: 0px;
   width: 200px;
   display: flex;
   flex-direction: row;
@@ -7098,6 +7122,11 @@
   align-items: flex-start;
   justify-content: flex-start;
   z-index: 2;
+  transition: trasform 0.5s ease-in-out;
+}
+.frame-wrapper67:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .national-forensic-sciences-uni-icon {
   position: absolute;
@@ -7413,6 +7442,10 @@
   height: 16px;
   object-fit: contain;
 }
+/* .gspc-group-1-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+} */
 .frame-wrapper77,
 .gspc-group-1-wrapper {
   position: absolute;
@@ -7426,6 +7459,11 @@
 }
 .frame-wrapper77 {
   z-index: 1;
+  transition: trasform 0.5s ease-in-out;
+}
+.frame-wrapper77:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .wrapper-vector-295-group {
   position: absolute;
@@ -7591,6 +7629,19 @@
   width: 300px;
   height: 300px;
   z-index: 5;
+  animation: heartbeat 1s infinite alternate;
+}
+/* .frame-parent104:hover {
+  animation: heartbeat 1s infinite;
+  cursor: pointer;
+} */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 .wrapper-vector-283-parent {
   /* border: 1px solid red; */
@@ -7692,6 +7743,8 @@
   justify-content: center;
   /* padding: 0 var(--padding-xl); */
   box-sizing: border-box;
+  position: relative;
+  top: 12rem;
 }
 .frame-child102 {
   align-self: stretch;
@@ -8016,6 +8069,8 @@
   justify-content: center;
   /* padding: 0 var(--padding-2xl) 0 var(--padding-xl); */
   max-width: 100%;
+  position: relative;
+  top: 12rem;
 }
 .frame-child108 {
   height: 1px;
@@ -8074,10 +8129,16 @@
   height: 24px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-10xs) 0 0;
   box-sizing: border-box;
+}
+.data-aggregator p {
+  font-size: 10px;
+  display: flex;
+  text-align: center;
 }
 .developed-by-guj {
   height: 24px;
@@ -8104,6 +8165,8 @@
 .frame-wrapper82 {
   align-self: stretch;
   justify-content: center;
+  position: relative;
+  top: 12rem;
   /* padding: 0 var(--padding-xl); */
   /* box-sizing: border-box; */
 }
@@ -8120,12 +8183,12 @@
 .vector-parent {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .vector-parent {
   flex: 1;
   flex-direction: column;
-  padding: 183.9px;
+  /* padding: 183.9px; */
   position: relative;
   gap: 49.3px;
   flex-shrink: 0;
